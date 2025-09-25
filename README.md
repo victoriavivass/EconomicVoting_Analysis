@@ -11,7 +11,7 @@ with a focus on periods of economic crisis.
 ## Table of Contents
 - [Project Description](#project-description)  
 - [Repository Structure](#repository-structure)  
-
+- [Installation and Usage](#installation-and-usage)  
 ---
 
 ## Project Description
