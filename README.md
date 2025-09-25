@@ -11,7 +11,6 @@ with a focus on periods of economic crisis.
 ## Table of Contents
 - [Project Description](#project-description)  
 - [Repository Structure](#repository-structure)  
-- [Installation and Usage](#installation-and-usage)  
 
 ---
 
@@ -50,3 +49,37 @@ EconomicVoting_Analysis/
 │      # Note: the full thesis text remains unpublished and is not distributed here.  
 │
 └── README.md           # This file
+```
+
+## Installation and Usage
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/victoriavivass/EconomicVoting_Analysis.git
+cd EconomicVoting_Analysis
+```
+### 2. Open the project in RStudio
+
+Open the `.Rproj` file `(EconomicVoting_Analysis.Rproj)` to load the project.
+This ensures that relative paths (like `data/raw/...`) work correctly.
+
+### 3. Run the pipeline
+
+In the RStudio console, run:
+```
+source("src/main.R")
+out <- run()
+```
+Cleaned datasets are returned in memory (`out$csv` and `out$sav`).
+Plots are saved automatically in the `plots`/ folder.
+Models are saved as `.rds` files in the `models`/ folder.
+
+### 4. Make sure you have the following R packages installed:
+
+```
+packages <- c(
+  "ggplot2", "dplyr", "haven", "naniar", "MASS",
+  "cowplot", "stargazer", "margins", "purrr"
+)
+install.packages(packages)
+```
