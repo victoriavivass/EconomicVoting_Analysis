@@ -23,8 +23,8 @@ It tests two key hypotheses:
 1. Economic evaluations are less ideologically biased during recessions.  
 2. Economic voting diminishes in times of economic crises.  
 
-The analysis uses **post-electoral survey data** from the *Centro de Investigaciones Sociológicas (CIS)*  
-to explore how macroeconomic contexts affect voter accountability and ideological biases.
+The analysis uses **post-electoral survey data** from the *Centro de Investigaciones Sociológicas (CIS)* 
+(Spanish Sociological Research Centre) to explore how macroeconomic contexts affect voter accountability and ideological biases.
 
 ---
 
