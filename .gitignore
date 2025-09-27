@@ -1,4 +1,5 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# Ignorar todos los PNG de plots...
+plots/*.png
+# ...pero mantener solo estos dos
+!plots/valoracion_2020_2024.png
+!plots/problema_2020_2024.png
